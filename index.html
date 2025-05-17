@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Início</h2>
+            <p>Este é o início do meu site. Aqui você pode encontrar informações sobre diversos temas!</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este site foi feito para demonstrar um simples exemplo de como criar páginas web com HTML e CSS.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Se você deseja entrar em contato, envie um e-mail para <a href="mailto:exemplo@dominio.com">exemplo@dominio.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Meu Site - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
